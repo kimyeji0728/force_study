@@ -1,11 +1,11 @@
 class Particle {
   constructor() {
-    this.pos = createVector(width/2, height/3);
+    this.pos = createVector(width/2, height/2);
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
 
     this.c = color(0);
-    this.w = 100;
+    this.w = 10;
   }
 
   addForce(aForce) {
